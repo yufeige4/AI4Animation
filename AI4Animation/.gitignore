@@ -1,0 +1,186 @@
+# Unity项目通用忽略规则
+# 参考: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Unity生成的文件夹
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures可能包含敏感数据
+/[Mm]emoryCaptures/
+
+# 录制内容可能体积过大
+/[Rr]ecordings/
+
+# 仅当相应资源被忽略时才忽略资源元数据
+!/[Aa]ssets/**/*.meta
+
+# 如需忽略Asset Store工具插件，取消下行注释
+# /[Aa]ssets/AssetStoreTools*
+
+# Jetbrains Rider插件
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio / VS Code 缓存目录
+.vs/
+.vscode/
+
+# Gradle缓存目录
+.gradle/
+
+# 自动生成的项目文件
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity生成的元文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity崩溃报告
+sysinfo.txt
+
+# 构建文件
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics生成的文件
+crashlytics-build.properties
+
+# Unity生成的本地文件
+/Assets/StreamingAssets*
+
+# 机器学习相关忽略规则
+# 参考: Python项目gitignore
+
+# 字节编译/优化/DLL文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C扩展
+*.so
+
+# 发布和打包
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 安装日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# 翻译
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 环境与虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE配置
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+.project
+.pydevproject
+
+# 文档
+/site
+
+# mypy
+.mypy_cache/
+
+# 机器学习模型与数据文件
+# 根据需要取消注释或修改
+*.h5
+*.pb
+*.pt
+*.pth
+*.onnx
+*.tflite
+# *.npy
+# *.npz
+# 大型数据集
+/datasets/
+/data/
+
+# 项目特定忽略
+# 临时文件
+*~
+.DS_Store
+Thumbs.db
+
+# Cursor IDE
+.cursor/ 
